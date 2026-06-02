@@ -1,6 +1,6 @@
 import string
 score=0
-password ="HELo@134hf"
+password = input("Enter your password to check its strength: ")
 upper_case =any( c in string.ascii_uppercase  for c in password)
 lower_case =any( c in string.ascii_lowercase  for c in password)
 special =any( c in string.punctuation  for c in password)
